@@ -1,3 +1,17 @@
 body {
   background: orange;
 }
+
+#main {
+  display: grid;
+  grid-template-areas: "one two three three four"
+                        "road road road road road"
+                          "five six Sseven road" nine"
+                          "eight ten eleven road thirteen"
+                          "twelve fourteen fifteen road sixteen"
+                          ". . . seventeen road .}
+                          []
+#week1 {
+  grid-area: one;
+  color: red;
+}
