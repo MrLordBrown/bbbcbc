@@ -6,12 +6,128 @@ body {
   display: grid;
   grid-template-areas: "one two three three four"
                         "road road road road road"
-                          "five six Sseven road" nine"
-                          "eight ten eleven road thirteen"
-                          "twelve fourteen fifteen road sixteen"
-                          ". . . seventeen road .}
-                          []
+                          "five six seven street nine"
+                         "eight ten eleven street thirteen"
+                          "blvd blvd blvd street ."
+                          "twelve fifteen fifteen street sixteen"
+                          "nineteen fourteen seventeen street eighteen";
+    grid-template-columns: 20vw 20vw 20vw 10vw 20vw;
+    grid-template-rows: 15vh 10vh 15vh 15vh 10vh 15vh 15vh;
+    }
+
+img {
+  object-fit: cover;
+  max-height: 100%;
+  width: 100%;
+  
+}
+.road, .street, .blvd {
+  background-color: gray;
+}
+
+.road {
+  grid-area: road;
+}
+
+.street {
+  grid-area: street; 
+}
+
+.blvd {
+  grid-area: blvd;
+}
+
 #week1 {
   grid-area: one;
+  color: red;
+}
+
+#week2 {
+  grid-area: two;
+  color: red;
+}
+
+#week3 {
+  grid-area: three;
+  color: red;
+}
+
+#week4 {
+  grid-area: four;
+  color: red;
+}
+
+#week5 {
+  grid-area: five;
+  color: red;
+}
+
+#week6 {
+  grid-area: six;
+  color: red;
+}
+
+#week7 {
+  grid-area: seven;
+  color: red;
+}
+
+#week8 {
+  grid-area: eight;
+  color: red;
+}
+
+#week9 {
+  grid-area: nine;
+  color: red;
+}
+
+#week10 {
+  grid-area: ten;
+  color: red;
+}
+
+#week11 {
+  grid-area: eleven;
+  color: red;
+}
+
+#week12 {
+  grid-area: twelve;
+  color: red;
+}
+
+#week13 {
+  grid-area: thirteen;
+  color: red;
+}
+
+#week14 {
+  grid-area: fourteen;
+  color: red;
+}
+
+#week15 {
+  grid-area: fifteen;
+  color: red;
+}
+
+#week16 {
+  grid-area: sixteen;
+  color: red;
+}
+
+#week17 {
+  grid-area: seventeen;
+  color: red;
+}
+
+#week18 {
+  grid-area: eighteen;
+  color: red;
+}
+
+#week19 {
+  grid-area: nineteen;
   color: red;
 }
